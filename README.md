@@ -1,4 +1,4 @@
-# classifyingBridges
+# Classification of Bridges
 A model that will identify which pitsburgh bridges are likely to fail.
 
 Dataset: The input consists of a data set which characterizes 108 Pittsburgh bridges
