@@ -7,8 +7,8 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-data=pd.read_csv(r"C:\Users\VaniSuresh\Desktop\AI\bridge.txt", delimiter=",", names=['A','B','C','D','E','F','G','H','I','J','K','L','M'], na_values="?")
-output=pd.read_csv(r"C:\Users\VaniSuresh\Desktop\AI\out.txt", names=['outputs'])
+data=pd.read_csv(r"C:\AI\bridge.txt", delimiter=",", names=['A','B','C','D','E','F','G','H','I','J','K','L','M'], na_values="?")
+output=pd.read_csv(r"C:\AI\out.txt", names=['outputs'])
 datain=pd.DataFrame(data)
 cols=[1,2,3,4,5,6,7,8,9,10,11,12]
 datain=datain[datain.columns[cols]]
